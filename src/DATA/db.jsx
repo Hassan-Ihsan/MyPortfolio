@@ -110,22 +110,23 @@ export const professionalSkill= [
  ]
  export const projects= [
      {
+          img:"Image/myPortfolio.png",
+          name:"Web Project in React js",
+          des:"This is my portfolio in React js .",
+          git:"https://github.com/Hassan-Ihsan/MyPortfolio.git",
+          live:"#",
+          id:1
+     },
+     {
           
           img:"Image/buyonline.png",
           name:"Web Project with Redux",
           des:"This is Web Frontend in React js with Redux.",
           git:"https://github.com/Hassan-Ihsan/BuyOnline.git",
           live:"https://buyonline123.netlify.app/",
-          id:1
+          id:2
      },
-     // {
-     //      img:"Image/react.jpg",
-     //      name:"Web Project with React ",
-     //      des:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dicta.",
-     //      git:"#",
-     //      live:"#",
-     //      id:2
-     // },
+    
      // {
      //      img:"Image/next.jpg",
      //      name:"Web Project with Next js ",

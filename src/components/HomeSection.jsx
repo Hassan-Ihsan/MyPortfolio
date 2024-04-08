@@ -15,7 +15,7 @@ const HomeSection = () => {
         <h1 className={style.home_heading}>HASSAN EHSAN</h1>
         <h3 className={style.home_top_para}>I<span>&#39;</span>m a <span style={{ color: 'aqua',  }}>
           <Typewriter
-            words={['Frontend Web Devolper in React js ', 'Frontend Web Devolper in Next js ']}
+            words={['Frontend Web Devolper in React js ']}
             loop={0}
             cursor
             // cursorStyle='|'
