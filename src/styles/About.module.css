@@ -1,0 +1,102 @@
+
+.grid_tow_colum{
+   background-color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem 0;
+    /* margin-top: 5rem; */
+    /* padding: 5rem 0; */
+    /* border: 2px solid red; */
+}
+.home_data{
+    /* grid-area: hero_data; */
+    /* border: 2px solid green;   */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-direction: column;  */
+    flex-basis: 50%;
+
+}
+.home_content{
+    /* grid-area: hero_data; */
+    /* border: 2px solid rgb(35, 0, 80); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* float: left; */
+    /* text-align: left; */
+    /* max-width: 100%; */
+    flex-basis: 60%;
+    margin: 5rem 0;
+}
+.home_top_para{
+    font-size: 2rem;
+    /* color: #8490ff; */
+    color: aqua;
+    text-align: start;
+    /* border: 2px solid red; */
+    /* margin: 0.5rem 0; */
+}
+
+.home_para{
+    /* color: black;  */
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    text-align: justify;
+    /* font-weight: bold; */
+    /* border: 2px solid red; */
+    margin: 0.5rem 0;
+
+}
+
+
+.link{
+    padding: 1rem 2.5rem;
+    background-color: aqua;
+    border: none;
+    margin: 1rem 0;
+    color: #081b29;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* cursor: pointer; */
+    /* border-radius: 5px; */
+}
+.link:hover{
+    transform: scale(0.8);
+    box-shadow: 0 0 5px#0ef, 0 0 25px #0ef, 0 0 50px #0ef;
+  }
+
+
+
+.home_img{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* grid-area: hero_img; */
+    /* border: 2px solid green; */
+}
+@media only screen and (min-width:200px) and (max-width:400px){
+    .home_top_para{
+        font-size: 1.5rem;
+    }
+    
+}
+@media only screen and (max-width:998px){
+    .grid_tow_colum{
+        flex-direction: column;
+          
+    }
+    .home_data{
+        justify-content: center
+    }
+    .home_content{
+        flex-basis: 50%;
+    }
+ 
+ }
