@@ -42,25 +42,17 @@ const HomeSection = () => {
           {/* <h2 className={style.home_heading}>HASSAN EHSAN</h2> */}
           <h3 className={style.home_top_para}>Frontend Web Devolper ! </h3>
           <p className={style.home_para}>
-            I am a skilled web developer with over 1 year of experience 
+            I am a skilled web developer 
             who is really good at making websites look great and
-            work smoothly.I am working in React js , which are
-            tools that help build cool features and make websites load fast.I am
+            work smoothly.I am working in React and Next js , which are
+            tools that help build cool features and make websites load fast. I am
             always learning about the latest tech stuff to stay on top of my
-            game.I love working with others to come up with new ideas and solve
+            game. I love working with others to come up with new ideas and solve
             problems together.I am excited to join a team where I can keep
             learning and help create awesome websites that people love to use.
           </p>
 
-          {/* <p className={style.home_para}>
-            I am a skilled web developer with over 1 year of experience <br/>who is really good at making websites look great and
-            work smoothly.<br/> I am working in React js sand Next.js, which are
-            tools that help build cool features <br/>and make websites load fast.<br/>  I am
-            always learning about the latest tech stuff to stay on top of my
-            game. <br/> I love working with others to come up with new ideas and solve
-            problems together.<br/> I am excited to join a team where I can keep
-            learning and help create awesome <br/> websites that people love to use.
-          </p> */}
+          
           <Link className={style.link} to="/contact">
             HIRE ME
           </Link>
@@ -72,3 +64,4 @@ const HomeSection = () => {
 };
 
 export default HomeSection;
+// with over 1 year of experience 

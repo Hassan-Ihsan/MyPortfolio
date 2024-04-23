@@ -15,7 +15,7 @@ const HomeSection = () => {
         <h1 className={style.home_heading}>HASSAN EHSAN</h1>
         <h3 className={style.home_top_para}>I<span>&#39;</span>m a <span style={{ color: 'aqua',  }}>
           <Typewriter
-            words={['Frontend Web Devolper in React js ']}
+            words={['Frontend Web Devolper in React js ','Frontend Web Devolper in Next js ']}
             loop={0}
             cursor
             // cursorStyle='|'
@@ -27,8 +27,8 @@ const HomeSection = () => {
           />
         </span></h3>
         
-        <p className={style.home_para}>I<span>&#39;</span>m HASSAN EHSAN and i<span>&#39;</span>m a frontend web developer in React js. <br />
-        i<span>&#39;</span>ve some experties to create frontend of wibsite in React js.  
+        <p className={style.home_para}>I<span>&#39;</span>m HASSAN EHSAN and i<span>&#39;</span>m a frontend web developer in React <br/> and Next js. 
+        i<span>&#39;</span>ve some experties to create frontend of wibsite <br/>in React and Next js.  
          </p>
          <div className={style.email}><i className="fa-solid fa-envelope"></i> : <span>HassanIhsan349@gmail.com</span></div>
          <div className={style.whatsapp}><i className="fa-brands fa-square-whatsapp"></i> : <span>+923005076705</span></div>

@@ -28,29 +28,37 @@ const technicalSkill= [
 //     },
     {
         image:'skillsImage/react.png',
-         name:"React",
+         name:"React js",
          percent:90,
          id:5,
     },
-//     {
-//         image:'skillsImage/next.jpeg',
-//          name:"Next Js",
-//          percent:95,
-//          id:6,
-//     } ,
+    {
+        image:'skillsImage/next.jpeg',
+         name:"Next Js",
+         percent:90,
+         id:6,
+    } ,
    
     {
         image:'skillsImage/redux.png',
          name:"Redux Toolkit",
          percent:95,
-         id:8,
+         id:7,
     },
     {
          image:'skillsImage/api.png',
          name:"CRUD Operation",
          percent:95,
-         id:9,
+         id:8,
+    },
+     
+    {
+          image:'skillsImage/git.png',
+          name:"Git & Github",
+          percent:90,
+          id:9,
     }
+     
 ]
 export const professionalSkill= [
      {
@@ -80,32 +88,31 @@ export const professionalSkill= [
      {
          
           name:"English Speaking",
-          percent:50,
+          percent:60,
           id:4,
      }
  ]
  export const services= [
-     {
+     // {
 
-          img:"Image/mui.png",
-          name:"Frontend Web Designing in Material UI ",
-          des:"It is in the learning process.",
-          id:1
-     },
+     //      img:"Image/mui.png",
+     //      name:"Frontend Web Designing in Material UI ",
+     //      des:"I can make frontend designing in React js with MUi",
+     //      id:1
+     // },
      {
 
           img:"Image/react.jpg",
           name:"Frontend Web Devolpment in React js",
-          des:"I can make responsive front end in React wirh RTK.",
+          des:"I can make frontend devolpment in React js with RTK.",
           id:2
      },
-     // {
-     
-     //      img:"Image/next.jpg",
-     //      name:"Frontend Web Devolpment in Next js ",
-     //      des:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dicta.",
-     //      id:3
-     // },
+      {
+          img:"Image/next.jpg",
+          name:"Frontend Web Devolpment in Next js ",
+          des:"I can make frontend devolpment in Next js with RTK.",
+          id:3
+     },
      
  ]
  export const projects= [
